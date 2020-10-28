@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.7rem 0 2.7rem 0;
+
+    .btn{
+        border-radius: 0.5rem;
+        padding: 1.4rem 2.1rem 1.3rem 2.6rem;
+    }
+}
+.logo{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: $second-color;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+    letter-spacing: -.063rem;
+}
+nav{
+    margin: 0 10rem 0 auto;
+
+    .nav__field{
+        display: flex;
+    }
+    .nav__field-item{
+        list-style: none;
+
+        &:not(:last-child){
+            margin-right: 3.4rem;
+        }
+    }
+    .nav__item-ref{
+        text-transform: capitalize;
+        text-decoration: none;
+        color: $second-color;
+        font-size: 1.3rem;
+        line-height: 2.7rem;
+        white-space: nowrap;
+    }
+}
+.join{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    span{
+        white-space: nowrap;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        margin-right: 2.2rem;
+        line-height: 2.7rem;
+    }
+}
